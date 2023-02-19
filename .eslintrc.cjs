@@ -6,6 +6,7 @@ module.exports = {
       project: './tsconfig.json',
     },
     rules: {
+      "@typescript-eslint/explicit-function-return-type": "warn",
       "@typescript-eslint/restrict-template-expressions": "off",
       "no-unused-vars":"off",
     }
