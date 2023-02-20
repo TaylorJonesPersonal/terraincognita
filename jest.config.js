@@ -10,4 +10,13 @@ module.exports = {
     moduleNameMapper: {
         '\\.(jpg|gif|css|png|svg)$': '<rootDir>/__tests__/mocks/fileMock.js',
     },
+    collectCoverage: true,
+    coverageThreshold: {
+        global: {
+            branches: 100,
+            functions: 100,
+            lines: 100,
+            statements: 100,
+        },
+    },
 };
